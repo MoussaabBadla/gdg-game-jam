@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 81179197837824549815b0ae52ac8274
+ModelImporter:
+  serializedVersion: 22103
+  internalIDToNameTable:
+  - first:
+      74: 3117836460229428643
+    second: Armature_Terek_Warrior|ATTAK-01
+  - first:
+      74: -8071605158337770446
+    second: Armature_Terek_Warrior|ATTAK-02
+  - first:
+      74: 4961575756001645898
+    second: Armature_Terek_Warrior|ATTAK-03
+  - first:
+      74: -3355840982617871064
+    second: Armature_Terek_Warrior|ATTAK-04
+  - first:
+      74: -1057794101928625453
+    second: Armature_Terek_Warrior|STAND-01
+  - first:
+      74: -5076389762874689246
+    second: Armature_Terek_Warrior|STAND-02
+  - first:
+      74: -7389772934679218300
+    second: Armature_Terek_Warrior|TAKE-WEAPON
+  - first:
+      74: 7481157267553979220
+    second: Armature_Terek_Warrior|TEASE-01
+  - first:
+      74: -5446891558354028393
+    second: Armature_Terek_Warrior|TEASE-02
+  - first:
+      74: -3793211075405032787
+    second: Armature_Terek_Warrior|TEASE-03
+  - first:
+      74: -5799411812041603412
+    second: Armature_Terek_Warrior|WALK
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Armature_Terek_Warrior
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-FOOT.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-TOE.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ROOT
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-NECK
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-SHOULDER.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-SHOULDER.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Warrior_Terek_ordin(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Sword_Terek
+      parentName: Warrior_Terek_ordin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armour_Terek
+      parentName: Warrior_Terek_ordin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Warior_Terek
+      parentName: Warrior_Terek_ordin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dress_Terek
+      parentName: Warrior_Terek_ordin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnderDress_Terek
+      parentName: Warrior_Terek_ordin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_Terek
+      parentName: Warrior_Terek_ordin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature_Terek_Warrior
+      parentName: Warrior_Terek_ordin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ROOT
+      parentName: Armature_Terek_Warrior
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000028145193, y: 1.5706217e-31, z: -1.02631e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-HIPS
+      parentName: ROOT
+      position: {x: -0.038364813, y: 0.019225558, z: 0.8379594}
+      rotation: {x: 0.7711507, y: 0.27465752, z: 0.22209904, w: 0.52968097}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: DEF-SPINE
+      parentName: ROOT
+      position: {x: 0.000000001885079, y: -0.039446328, z: 1.029238}
+      rotation: {x: 0.6965246, y: 0.24275565, z: 0.25607368, w: 0.6247795}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: DEF-CHEST
+      parentName: ROOT
+      position: {x: 0.002709906, y: -0.05455757, z: 1.1774114}
+      rotation: {x: 0.74727565, y: 0.2060542, z: 0.27113444, w: 0.57061976}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: DEF-NECK
+      parentName: ROOT
+      position: {x: 0.0022580863, y: -0.13561708, z: 1.4737189}
+      rotation: {x: 0.8505404, y: 0.13237998, z: 0.11226194, w: 0.4964412}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: DEF-HEAD
+      parentName: ROOT
+      position: {x: 0.011841593, y: -0.17539535, z: 1.5473869}
+      rotation: {x: 0.73454213, y: 0.05607913, z: 0.06677723, w: 0.6729367}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000002}
+    - name: DEF-SHOULDER.L
+      parentName: ROOT
+      position: {x: 0.006641712, y: -0.16948837, z: 1.4101062}
+      rotation: {x: 0.7429046, y: -0.30301058, z: 0.5788784, w: 0.1455239}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: DEF-ARM.L
+      parentName: ROOT
+      position: {x: -0.10985651, y: -0.29100588, z: 1.3668905}
+      rotation: {x: -0.15141596, y: -0.37209573, z: 0.8862618, w: 0.23056017}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: DEF-FOREARM.L
+      parentName: ROOT
+      position: {x: -0.19129638, y: -0.46070686, z: 1.1662096}
+      rotation: {x: 0.59903723, y: 0.24064855, z: -0.53667945, w: 0.54333955}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: DEF-HAND.L
+      parentName: ROOT
+      position: {x: 0.041961573, y: -0.53932554, z: 1.2713037}
+      rotation: {x: 0.5651377, y: 0.29718825, z: -0.48639297, w: 0.59642303}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: DEF-PALM-A.L
+      parentName: ROOT
+      position: {x: 0.08835105, y: -0.5496165, z: 1.2637652}
+      rotation: {x: 0.52968025, y: 0.382333, z: -0.4355421, w: 0.619325}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: DEF-PALM-A-01.L
+      parentName: ROOT
+      position: {x: 0.139721, y: -0.5463813, z: 1.2813348}
+      rotation: {x: 0.1216082, y: 0.56431353, z: -0.26360762, w: 0.7728342}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: DEF-PALM-A-02.L
+      parentName: ROOT
+      position: {x: 0.15629359, y: -0.5210845, z: 1.2780018}
+      rotation: {x: -0.46453983, y: 0.58099484, z: 0.22567202, w: 0.6290627}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: DEF-PALM-A-03.L
+      parentName: ROOT
+      position: {x: 0.1343685, y: -0.50866616, z: 1.2694252}
+      rotation: {x: 0.7681071, y: -0.26642635, z: -0.56571555, w: -0.13782014}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: DEF-PALM-B.L
+      parentName: ROOT
+      position: {x: 0.08533989, y: -0.5515824, z: 1.284992}
+      rotation: {x: 0.5277601, y: 0.39256847, z: -0.45000172, w: 0.60403454}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: DEF-PALM-B-01.L
+      parentName: ROOT
+      position: {x: 0.14430222, y: -0.54924756, z: 1.3024875}
+      rotation: {x: 0.01636897, y: 0.6085221, z: -0.13169825, w: 0.7823609}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: DEF-PALM-B-02.L
+      parentName: ROOT
+      position: {x: 0.15299053, y: -0.5121566, z: 1.29731}
+      rotation: {x: -0.5298632, y: 0.5305574, z: 0.32591593, w: 0.57578874}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: DEF-PALM-B-03.L
+      parentName: ROOT
+      position: {x: 0.121688336, y: -0.50460964, z: 1.2884845}
+      rotation: {x: 0.78023535, y: -0.16588598, z: -0.60010445, w: -0.05991072}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: DEF-PALM-C.L
+      parentName: ROOT
+      position: {x: 0.08282949, y: -0.548369, z: 1.3035752}
+      rotation: {x: 0.50945616, y: 0.34452212, z: -0.4752037, w: 0.62923807}
+      scale: {x: 1.0000002, y: 1.0000005, z: 0.99999994}
+    - name: DEF-PALM-C-01.L
+      parentName: ROOT
+      position: {x: 0.1399716, y: -0.54660654, z: 1.3224626}
+      rotation: {x: 0.011719425, y: 0.5728613, z: -0.10720458, w: 0.81252676}
+      scale: {x: 1.0000002, y: 1.0000005, z: 0.9999999}
+    - name: DEF-PALM-C-02.L
+      parentName: ROOT
+      position: {x: 0.14832442, y: -0.50312704, z: 1.3178427}
+      rotation: {x: -0.54851395, y: 0.48902062, z: 0.3166015, w: 0.59979564}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000005}
+    - name: DEF-PALM-C-03.L
+      parentName: ROOT
+      position: {x: 0.11657781, y: -0.4962739, z: 1.3057733}
+      rotation: {x: 0.8087341, y: -0.13782854, z: -0.5687353, w: -0.059098016}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1}
+    - name: DEF-PALM-D.L
+      parentName: ROOT
+      position: {x: 0.07828656, y: -0.5389633, z: 1.3209771}
+      rotation: {x: 0.5154518, y: 0.3294634, z: -0.4622701, w: 0.64192665}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: DEF-PALM-D-01.L
+      parentName: ROOT
+      position: {x: 0.13031901, y: -0.5366642, z: 1.3408929}
+      rotation: {x: 0.014992545, y: 0.5261342, z: -0.11129819, w: 0.8429536}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: DEF-PALM-D-02.L
+      parentName: ROOT
+      position: {x: 0.13854758, y: -0.49723238, z: 1.3371779}
+      rotation: {x: -0.5865692, y: 0.43910465, z: 0.30163187, w: 0.61003435}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: DEF-PALM-D-03.L
+      parentName: ROOT
+      position: {x: 0.109198846, y: -0.4929152, z: 1.3221982}
+      rotation: {x: 0.84095716, y: -0.10647499, z: -0.52937305, w: -0.03490414}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+    - name: DEF-THUMB.L
+      parentName: ROOT
+      position: {x: 0.044852782, y: -0.53176975, z: 1.3009946}
+      rotation: {x: 0.35122776, y: -0.44695106, z: -0.52140635, w: 0.6364033}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: DEF-THUMB-01.L
+      parentName: ROOT
+      position: {x: 0.060241807, y: -0.5225479, z: 1.34118}
+      rotation: {x: 0.10127356, y: -0.24843372, z: -0.6356949, w: 0.7238207}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: DEF-THUMB-02.L
+      parentName: ROOT
+      position: {x: 0.10301214, y: -0.5141274, z: 1.3639169}
+      rotation: {x: -0.1009754, y: -0.0726611, z: -0.67203045, w: 0.7299996}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: DEF-LEG.L
+      parentName: ROOT
+      position: {x: -0.09079029, y: -0.07715183, z: 0.9277923}
+      rotation: {x: 0.13246533, y: -0.58134115, z: 0.7986014, w: -0.08204418}
+      scale: {x: 0.9999742, y: 0.9803825, z: 0.99997544}
+    - name: DEF-SHEEN.L
+      parentName: ROOT
+      position: {x: -0.10097794, y: -0.21490324, z: 0.5063824}
+      rotation: {x: -0.14089186, y: 0.7424948, z: -0.6531706, w: 0.04710757}
+      scale: {x: 0.99997115, y: 0.9787482, z: 0.9998811}
+    - name: DEF-FOOT.L
+      parentName: ROOT
+      position: {x: -0.16153826, y: -0.17101242, z: 0.10320355}
+      rotation: {x: 0.9465334, y: 0.13720247, z: -0.039802276, w: -0.2892504}
+      scale: {x: 1, y: 0.9999999, z: 0.99999964}
+    - name: DEF-TOE.L
+      parentName: ROOT
+      position: {x: -0.12992232, y: -0.2771994, z: 0.028608395}
+      rotation: {x: 0.007231513, y: -0.079111576, z: 0.9864719, w: -0.14339569}
+      scale: {x: 1, y: 0.99999946, z: 0.9999995}
+    - name: DEF-DRESSFRONT-01.L
+      parentName: ROOT
+      position: {x: -0.019473571, y: -0.19361211, z: 0.9602755}
+      rotation: {x: 0.04141457, y: -0.48520786, z: 0.8688925, w: -0.0887919}
+      scale: {x: 0.9999994, y: 0.99999964, z: 0.99999887}
+    - name: DEF-DRESSFRONT-02.L
+      parentName: ROOT
+      position: {x: 0.0070227496, y: -0.31281757, z: 0.76278144}
+      rotation: {x: 0.059339274, y: -0.63605773, z: 0.76564443, w: -0.0754855}
+      scale: {x: 0.9999994, y: 0.9999998, z: 0.9999986}
+    - name: DEF-DRESSBACK-01.L
+      parentName: ROOT
+      position: {x: -0.14647026, y: -0.009676149, z: 0.9714013}
+      rotation: {x: -0.6315332, y: -0.23203567, z: 0.27479744, w: 0.6868855}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999535}
+    - name: DEF-DRESSBACK-02.L
+      parentName: ROOT
+      position: {x: -0.16607526, y: 0.002236908, z: 0.7403395}
+      rotation: {x: -0.5953911, y: -0.21773776, z: 0.286221, w: 0.7184548}
+      scale: {x: 1, y: 1.0000001, z: 0.9999954}
+    - name: DEF-KOLCHAN
+      parentName: ROOT
+      position: {x: -0.106967315, y: -0.20447794, z: 0.98986965}
+      rotation: {x: -0.20405042, y: -0.54742074, z: 0.760996, w: 0.28209776}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: DEF-WEAPON
+      parentName: ROOT
+      position: {x: 0.59121895, y: 0.15053456, z: 1.2478749}
+      rotation: {x: 0.9819263, y: -0.049198933, z: -0.17888756, w: 0.037409328}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: DEF-SHIELD
+      parentName: ROOT
+      position: {x: 0.09443934, y: -0.5325595, z: 1.2858368}
+      rotation: {x: -0.28725496, y: -0.21690828, z: 0.62139267, w: 0.69592136}
+      scale: {x: 0.999998, y: 0.99999994, z: 0.9999999}
+    - name: DEF-LEG.R
+      parentName: ROOT
+      position: {x: 0.056620024, y: 0.052269448, z: 0.9379243}
+      rotation: {x: -0.3657121, y: 0.5988397, z: -0.503809, w: 0.5038077}
+      scale: {x: 0.9998989, y: 0.99137956, z: 0.9998987}
+    - name: DEF-SHEEN.R
+      parentName: ROOT
+      position: {x: 0.08784776, y: 0.15310758, z: 0.50208145}
+      rotation: {x: -0.40965858, y: 0.63492525, z: -0.449397, w: 0.47654188}
+      scale: {x: 0.99989, y: 0.990684, z: 0.9998497}
+    - name: DEF-FOOT.R
+      parentName: ROOT
+      position: {x: 0.04970731, y: 0.26119956, z: 0.10320351}
+      rotation: {x: 0.75843936, y: 0.5826832, z: -0.17954402, w: -0.23024762}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999997}
+    - name: DEF-TOE.R
+      parentName: ROOT
+      position: {x: 0.15671724, y: 0.23249201, z: 0.028608358}
+      rotation: {x: -0.051654994, y: 0.060354803, z: -0.7907308, w: 0.6069876}
+      scale: {x: 1.0000004, y: 0.99999976, z: 0.9999996}
+    - name: DEF-SHOULDER.R
+      parentName: ROOT
+      position: {x: 0.050210867, y: -0.1344661, z: 1.4197534}
+      rotation: {x: 0.36216652, y: 0.70176274, z: -0.06108723, w: 0.6104366}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: DEF-ARM.R
+      parentName: ROOT
+      position: {x: 0.1436318, y: 0.005944233, z: 1.4617462}
+      rotation: {x: -0.09922988, y: 0.1915979, z: -0.27820453, w: 0.9359733}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: DEF-FOREARM.R
+      parentName: ROOT
+      position: {x: 0.27645972, y: 0.233078, z: 1.3813053}
+      rotation: {x: -0.036219656, y: 0.1942323, z: -0.7776269, w: 0.5968739}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: DEF-HAND.R
+      parentName: ROOT
+      position: {x: 0.52114815, y: 0.1763286, z: 1.2888821}
+      rotation: {x: -0.08102311, y: 0.02972489, z: -0.80033356, w: 0.59331095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: DEF-DRESSFRONT-01.R
+      parentName: ROOT
+      position: {x: 0.1294357, y: -0.048331168, z: 0.9647413}
+      rotation: {x: 0.004084577, y: 0.7329898, z: -0.65261513, w: 0.19184072}
+      scale: {x: 0.9999994, y: 0.9999997, z: 0.99999803}
+    - name: DEF-DRESSFRONT-02.R
+      parentName: ROOT
+      position: {x: 0.18896778, y: -0.013930213, z: 0.7429566}
+      rotation: {x: -0.2807647, y: 0.67557013, z: -0.485093, w: 0.47902083}
+      scale: {x: 0.9999994, y: 0.9999994, z: 0.9999982}
+    - name: DEF-DRESSBACK-01.R
+      parentName: ROOT
+      position: {x: -0.014821378, y: 0.11068329, z: 0.9762961}
+      rotation: {x: -0.5766882, y: -0.2661163, z: 0.25275305, w: 0.7298827}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999953}
+    - name: DEF-DRESSBACK-02.R
+      parentName: ROOT
+      position: {x: -0.029224237, y: 0.15876985, z: 0.74958915}
+      rotation: {x: -0.561693, y: -0.2710773, z: 0.26232797, w: 0.73634374}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999955}
+    - name: DEF-PALM-A.R
+      parentName: ROOT
+      position: {x: 0.56679386, y: 0.18872789, z: 1.2800819}
+      rotation: {x: -0.21279015, y: 0.1245256, z: -0.7182504, w: 0.6506382}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: DEF-PALM-A-01.R
+      parentName: ROOT
+      position: {x: 0.6147447, y: 0.18207483, z: 1.255293}
+      rotation: {x: 0.5409585, y: -0.53583527, z: 0.5016995, w: -0.4105387}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: DEF-PALM-A-02.R
+      parentName: ROOT
+      position: {x: 0.6096395, y: 0.17937683, z: 1.2254208}
+      rotation: {x: -0.68248427, y: 0.7285428, z: -0.050013453, w: -0.03064836}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: DEF-PALM-A-03.R
+      parentName: ROOT
+      position: {x: 0.58308864, y: 0.18106511, z: 1.2245947}
+      rotation: {x: -0.5269637, y: 0.6089586, z: 0.399342, w: -0.43818325}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: DEF-PALM-B.R
+      parentName: ROOT
+      position: {x: 0.5675821, y: 0.16851152, z: 1.2874434}
+      rotation: {x: -0.1998685, y: 0.101665325, z: -0.7280407, w: 0.64782214}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999998}
+    - name: DEF-PALM-B-01.R
+      parentName: ROOT
+      position: {x: 0.62313735, y: 0.159896, z: 1.2623941}
+      rotation: {x: -0.5459226, y: 0.5983136, z: -0.4805248, w: 0.3362815}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999998}
+    - name: DEF-PALM-B-02.R
+      parentName: ROOT
+      position: {x: 0.61044735, y: 0.15767114, z: 1.226172}
+      rotation: {x: -0.6291123, y: 0.76562893, z: 0.053372182, w: -0.123213105}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: DEF-PALM-B-03.R
+      parentName: ROOT
+      position: {x: 0.57872385, y: 0.16443992, z: 1.2340765}
+      rotation: {x: 0.38571122, y: -0.53403425, z: -0.5512819, w: 0.511979}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: DEF-PALM-C.R
+      parentName: ROOT
+      position: {x: 0.5667425, y: 0.14960113, z: 1.289354}
+      rotation: {x: -0.12624915, y: 0.12185732, z: -0.76181656, w: 0.62357634}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000002}
+    - name: DEF-PALM-C-01.R
+      parentName: ROOT
+      position: {x: 0.62209415, y: 0.13800457, z: 1.2686954}
+      rotation: {x: -0.5226955, y: 0.61552274, z: -0.47836083, w: 0.34509724}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000004}
+    - name: DEF-PALM-C-02.R
+      parentName: ROOT
+      position: {x: 0.6081476, y: 0.13782299, z: 1.226422}
+      rotation: {x: -0.61311775, y: 0.77255714, z: 0.10046813, w: -0.13095118}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000007}
+    - name: DEF-PALM-C-03.R
+      parentName: ROOT
+      position: {x: 0.576236, y: 0.14572221, z: 1.2373642}
+      rotation: {x: 0.339355, y: -0.4690926, z: -0.6195952, w: 0.5299925}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000004}
+    - name: DEF-PALM-D.R
+      parentName: ROOT
+      position: {x: 0.5617775, y: 0.1301914, z: 1.2861068}
+      rotation: {x: -0.10932127, y: 0.15062043, z: -0.7711358, w: 0.6088612}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: DEF-PALM-D-01.R
+      parentName: ROOT
+      position: {x: 0.6123025, y: 0.118302956, z: 1.2657306}
+      rotation: {x: -0.5339143, y: 0.586938, z: -0.47901592, w: 0.375477}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: DEF-PALM-D-02.R
+      parentName: ROOT
+      position: {x: 0.6015005, y: 0.11712817, z: 1.226765}
+      rotation: {x: -0.63199365, y: 0.748067, z: 0.11769514, w: -0.16470481}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+    - name: DEF-PALM-D-03.R
+      parentName: ROOT
+      position: {x: 0.5713663, y: 0.12289275, z: 1.2395352}
+      rotation: {x: 0.3117526, y: -0.4157316, z: -0.6260073, w: 0.58145714}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: DEF-THUMB.R
+      parentName: ROOT
+      position: {x: 0.52543443, y: 0.14589787, z: 1.2872673}
+      rotation: {x: -0.38859782, y: -0.2573483, z: 0.883363, w: -0.049330335}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: DEF-THUMB-01.R
+      parentName: ROOT
+      position: {x: 0.538072, y: 0.1079331, z: 1.2689456}
+      rotation: {x: -0.3753763, y: -0.3851307, z: 0.83833194, w: -0.08925551}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: DEF-THUMB-02.R
+      parentName: ROOT
+      position: {x: 0.55964494, y: 0.07413648, z: 1.2404927}
+      rotation: {x: -0.36627838, y: -0.43927303, z: 0.8138686, w: -0.102456234}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: Shild_Terek
+      parentName: Warrior_Terek_ordin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Helmet_Terek
+      parentName: Warrior_Terek_ordin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

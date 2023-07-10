@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85ff4e69794a8554b9a10394e7147bcf, type: 3}
+  m_Name: Mage 3
+  m_EditorClassIdentifier: 
+  scripts:
+  - text: "\u0644\u0642\u062F \u0641\u0642\u062A \u062A\u0648\u0642\u0639\u0627\u062A\u064A
+      , \u0639\u0645\u0644 \u062C\u064A\u062F , \u0647\u0630\u0647 \u0627\u0644\u0631\u062D\u0644\u0629
+      \u0633\u062A\u0643\u0648\u0646 \u0627\u0644\u0627\u062E\u064A\u0631\u0629 \u0633\u062A\u0630\u0647\u0628
+      \u0627\u0644\u0649 \u0628\u0627\u0628\u0644 \u0645\u062F\u064A\u0646\u062A\u064A
+      \u0627\u0644\u0642\u062F\u064A\u0645\u0629"
+    audioClip: {fileID: 8300000, guid: d1ab5201bf75c544284ebbc75eda2308, type: 3}
+    flip: 0
+    WaitafterAudio: 1
+    volume: 1
+    speaker: 2
+    stopOnLine: 0
+    hideOnStop: 0
+    freezPlayerMovement: 0
+    tag: 
+  - text: " \u0645\u062F\u064A\u0646\u062A\u0643 \u0627\u0644\u0642\u062F\u064A\u0645\u0629\u061F"
+    audioClip: {fileID: 8300000, guid: 6de9a8b280be32e4ebd8d38ba0578e08, type: 3}
+    flip: 0
+    WaitafterAudio: 1
+    volume: 1
+    speaker: 0
+    stopOnLine: 0
+    hideOnStop: 0
+    freezPlayerMovement: 0
+    tag: 
+  - text: "\u0644\u0642\u062F \u0627\u062E\u0628\u0631\u062A\u0643 \u0627\u0646\u0646\u064A
+      \u062D\u0628\u0633\u062A \u0646\u0641\u0633\u064A \u0647\u0646\u0627 , \u0628\u0639\u062F
+      \u0647\u062C\u0648\u0645 \u0627\u0644\u0645\u063A\u0648\u0644 \u0639\u0644\u0649
+      \u0628\u0627\u0628\u0644 \u0644\u0642\u062F \u062D\u0648\u0635\u0631\u062A
+      \u062F\u0627\u062E\u0644 \u0627\u0644\u0645\u0643\u062A\u0628\u0629 \u0648\u0644\u0645
+      \u0627\u0633\u062A\u0637\u0639 \u0627\u0644\u0647\u0631\u0648\u0628 \u0641\u0642\u0645\u062A
+      \u0628\u062D\u0628\u0633 \u0646\u0641\u0633\u064A \u062F\u0627\u062E\u0644
+      \u0630\u0644\u0643 \u0627\u0644\u0643\u062A\u0627\u0628 , \u0627\u0648\u0647
+      \u0627\u0644\u062D\u0645\u062F \u0644\u0644\u0647 \u0627\u0646\u0647 \u0644\u0645
+      \u064A\u062D\u062A\u0631\u0642 \u0645\u0639 \u0628\u0642\u064A\u0629 \u0627\u0644\u0643\u062A\u0628
+      , \u0627\u0648\u0644\u0626\u0643 \u0627\u0644\u0645\u063A\u0648\u0644 \u062D\u0642\u0627
+      \u0647\u0645\u062C\u064A\u0648\u0646 \u062A\u0628\u0627 \u0644\u0647\u0645 "
+    audioClip: {fileID: 8300000, guid: 5c21d76bd1857f44ca63f1632eee79c2, type: 3}
+    flip: 0
+    WaitafterAudio: 1
+    volume: 1
+    speaker: 2
+    stopOnLine: 0
+    hideOnStop: 0
+    freezPlayerMovement: 0
+    tag: 
+  - text: " \u0647\u0630\u0627 \u064A\u0648\u0636\u062D \u0628\u0639\u0636 \u0627\u0644\u0627\u0645\u0648\u0631"
+    audioClip: {fileID: 8300000, guid: d13864addb4050446873490b836dea05, type: 3}
+    flip: 0
+    WaitafterAudio: 1
+    volume: 1
+    speaker: 0
+    stopOnLine: 0
+    hideOnStop: 0
+    freezPlayerMovement: 0
+    tag: 
+  - text: " \u0627\u0648\u0647 \u062A\u0628\u062F\u0648 \u0641\u062A\u0649 \u0630\u0643\u064A
+      \u0639\u0644\u0649 \u0643\u0644 \u062D\u0627\u0644 , \u0633\u062A\u062D\u062A\u0627\u062C
+      \u0630\u0643\u0627\u0626\u0643 \u0641\u064A \u0627\u0644\u0631\u062D\u0644\u0629
+      \u0627\u0644\u0642\u0627\u062F\u0645\u0629 \u0644\u0627\u0646\u0647\u0627 \u0639\u0628\u0627\u0631\u0629
+      \u0639\u0646 \u0644\u063A\u0632"
+    audioClip: {fileID: 8300000, guid: 328417be031b7fd429a7e629a718796e, type: 3}
+    flip: 0
+    WaitafterAudio: 1
+    volume: 1
+    speaker: 2
+    stopOnLine: 0
+    hideOnStop: 0
+    freezPlayerMovement: 0
+    tag: 
+  - text: "\u0644\u063A\u0632\u061F (\u064A\u0634\u0639\u0631 \u0628\u0627\u0644\u062F\u0647\u0634\u0629) "
+    audioClip: {fileID: 8300000, guid: e973a991a2f7c6f4c91d2b2f23d3a64e, type: 3}
+    flip: 0
+    WaitafterAudio: 1
+    volume: 1
+    speaker: 0
+    stopOnLine: 0
+    hideOnStop: 0
+    freezPlayerMovement: 0
+    tag: 
+  - text: "\u0633\u062A\u0643\u062A\u0634\u0641 \u0647\u0630\u0627 \u0628\u0646\u0641\u0633\u0643"
+    audioClip: {fileID: 8300000, guid: 3397a9212afafa547a88483db4df0e51, type: 3}
+    flip: 0
+    WaitafterAudio: 1
+    volume: 1
+    speaker: 2
+    stopOnLine: 0
+    hideOnStop: 0
+    freezPlayerMovement: 0
+    tag: 
